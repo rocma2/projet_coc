@@ -1,0 +1,84 @@
+.qty {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: var(--radius-pill);
+  background: var(--color-sunken);
+}
+
+.qty--md {
+  --qty-dot: 36px;
+  gap: 0;
+  padding: 0;
+}
+
+.qty--sm {
+  --qty-dot: 28px;
+}
+
+/* Bouton de 44 px (cible tactile) qui dessine un disque blanc plus petit. */
+.qty__button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--size-touch);
+  height: var(--size-touch);
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.qty--sm .qty__button {
+  font-size: var(--font-size-body);
+}
+
+.qty__button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--qty-dot);
+  height: var(--qty-dot);
+  border-radius: 50%;
+  background: var(--color-raised);
+  transform: translate(-50%, -50%);
+}
+
+.qty__button > span {
+  position: relative;
+}
+
+.qty__button:disabled {
+  cursor: not-allowed;
+  color: var(--color-text-muted);
+}
+
+.qty__button:disabled::before {
+  opacity: 0.5;
+}
+
+.qty__button:focus-visible {
+  outline: none;
+}
+
+.qty__button:focus-visible::before {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 1px;
+}
+
+.qty__value {
+  min-width: 28px;
+  font-size: 16px;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+.qty--sm .qty__value {
+  font-size: var(--font-size-body-sm);
+}

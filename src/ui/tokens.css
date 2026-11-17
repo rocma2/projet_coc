@@ -1,0 +1,178 @@
+/*
+ * Jetons de design tirés des wireframes (docs/wireframes/).
+ * Toutes les couleurs de l'app passent par ces variables : aucun code hexadécimal
+ * dans les composants. Le thème sombre redéfinit les mêmes noms plus bas.
+ */
+:root {
+  color-scheme: light;
+
+  /* Fonds */
+  --color-backdrop: #e4e4ea; /* autour de la colonne sur grand écran */
+  --color-ground: #f2f2f5; /* fond de page */
+  --color-surface: #ffffff; /* cartes */
+  --color-sunken: #f2f2f5; /* zones grises dans une carte (pilules secondaires, steppers) */
+  --color-field: #fafafb; /* champs de saisie */
+  --color-raised: #ffffff; /* élément sélectionné posé sur une zone grise */
+
+  /* Texte */
+  --color-text: #111114;
+  --color-text-secondary: #4a4a55;
+  --color-text-muted: #6b6b76;
+
+  /* Traits et pistes */
+  --color-hairline: #ededf1; /* séparateurs dans les cartes */
+  --color-border: #e6e6eb; /* bord de la barre de navigation */
+  --color-track: #ededf1; /* fond des jauges et barres */
+  --color-inactive: #d9d9e0; /* segments d'étape à venir, interrupteur éteint */
+  --color-dashed: #c9c9d2; /* zone de dépôt en pointillés */
+
+  /* Action principale (pilule noire) */
+  --color-primary: #111114;
+  --color-on-primary: #ffffff;
+  --color-thumb: #ffffff; /* pastille des interrupteurs, quel que soit le thème */
+
+  /* Accents porteurs de sens */
+  --color-orange: #f07a2b;
+  --color-green: #2fb36a;
+  --color-blue: #3478f6;
+  --color-purple: #7a5af8;
+  --color-gold: #f5b800;
+
+  /* Teintes douces (fonds de pastilles) et encres lisibles sur ces teintes */
+  --color-orange-soft: #fdeee3;
+  --color-green-soft: #e3f5eb;
+  --color-blue-soft: #e6eefe;
+  --color-purple-soft: #eeeafe;
+  --color-gold-soft: #fff4d1;
+  --color-orange-ink: #a94a0b;
+  --color-green-ink: #1a7a45;
+  --color-blue-ink: #1f5fd6;
+  --color-gold-ink: #7a5300;
+
+  --color-focus: #3478f6;
+  --shadow-column: 0 8px 32px rgb(17 17 20 / 12%);
+
+  /* Palette des illustrations (icônes du jeu dessinées pour le projet) */
+  --icon-th-outer: #4c3a8c;
+  --icon-th-stroke: #2a1f55;
+  --icon-th-inner: #6b55c2;
+  --icon-th-text: #ffffff;
+  --icon-gold: #f5b800;
+  --icon-gold-stroke: #a87700;
+  --icon-gold-shine: #ffe27a;
+  --icon-hut: #f5b800;
+  --icon-hut-base: #e0a500;
+  --icon-hut-stroke: #8a6400;
+  --icon-elixir: #d94bc8;
+  --icon-elixir-stroke: #8e1f86;
+  --icon-elixir-shine: #f7b5ef;
+  --icon-dark: #3b2a4d;
+  --icon-dark-stroke: #150c20;
+  --icon-dark-shine: #8c76a6;
+  --icon-gem: #3dd07a;
+  --icon-gem-stroke: #157a44;
+  --icon-medal: #7fa8f8;
+  --icon-medal-stroke: #1f5fd6;
+  --icon-medal-star: #ffffff;
+  --icon-event: #3ba8e0;
+  --icon-event-stroke: #11577a;
+  --icon-event-star: #e4f5fd;
+  --icon-pass-star: #fff3c2;
+  --icon-trophy: #b48cf2;
+  --icon-trophy-stroke: #4e2a99;
+  --icon-hammer-building: #f07a2b;
+  --icon-hammer-building-stroke: #8a3b07;
+  --icon-hammer-fighting: #e5484d;
+  --icon-hammer-fighting-stroke: #7a1e21;
+  --icon-hammer-spells: #8b5cf6;
+  --icon-hammer-spells-stroke: #3e2a99;
+  --icon-hammer-heroes: #f5b800;
+  --icon-hammer-heroes-stroke: #8a6400;
+  --icon-hammer-handle: #8a5a2b;
+  --icon-book: #f07a2b;
+  --icon-book-stroke: #8a3b07;
+  --icon-book-lines: #ffe0c7;
+
+  /* Typographie */
+  --font-sans: 'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, Menlo, Consolas, monospace;
+  --font-size-display: 34px;
+  --font-size-title: 28px;
+  --font-size-title-sm: 22px;
+  --font-size-button: 16px;
+  --font-size-lead: 15px;
+  --font-size-body: 14px;
+  --font-size-body-sm: 13px;
+  --font-size-label: 12px;
+  --font-size-caption: 11px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-heavy: 800;
+  --tracking-tight: -0.02em;
+  --line-height-tight: 1.15;
+  --line-height-body: 1.45;
+
+  /* Espacements (pas de 4 px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --gap-screen: 14px; /* espace entre les blocs d'un écran */
+
+  /* Rayons */
+  --radius-card: 24px;
+  --radius-card-sm: 20px;
+  --radius-inner: 14px;
+  --radius-pill: 999px;
+
+  /* Tailles */
+  --size-touch: 44px;
+  --size-button-lg: 54px;
+  --size-column: 430px;
+}
+
+/* Thème sombre dérivé des mêmes jetons. Contraste du texte ≥ 4,5:1 sur --color-surface et --color-ground. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --color-backdrop: #050507;
+    --color-ground: #0f0f12;
+    --color-surface: #1c1c21;
+    --color-sunken: #2a2a31;
+    --color-field: #141418;
+    --color-raised: #44444d;
+
+    --color-text: #f2f2f5;
+    --color-text-secondary: #c8c8d0;
+    --color-text-muted: #a3a3ae;
+
+    --color-hairline: #2c2c33;
+    --color-border: #2c2c33;
+    --color-track: #34343c;
+    --color-inactive: #45454f;
+    --color-dashed: #55555f;
+
+    --color-primary: #f2f2f5;
+    --color-on-primary: #111114;
+
+    --color-orange-soft: #3a2415;
+    --color-green-soft: #14301f;
+    --color-blue-soft: #16264a;
+    --color-purple-soft: #2a2148;
+    --color-gold-soft: #3a3010;
+    --color-orange-ink: #f8a26a;
+    --color-green-ink: #5dd393;
+    --color-blue-ink: #8db4fa;
+    --color-gold-ink: #f5cf55;
+
+    --color-focus: #8db4fa;
+    --shadow-column: 0 8px 32px rgb(0 0 0 / 50%);
+  }
+}

@@ -1,23 +1,24 @@
 import { useTranslation } from 'react-i18next'
-import { SUPPORTED_LANGUAGES } from '../i18n/index.ts'
+import { isLanguage, SUPPORTED_LANGUAGES, type Language } from '../i18n/index.ts'
+import { SegmentedControl } from './components/SegmentedControl.tsx'
 
+/** Choix de la langue (français / anglais), enregistré par le module i18n. */
 export function LanguageSwitch() {
   const { t, i18n } = useTranslation()
-  const current = i18n.resolvedLanguage ?? i18n.language
+  const resolved = i18n.resolvedLanguage ?? i18n.language
+  const current: Language = isLanguage(resolved) ? resolved : 'fr'
 
   return (
-    <div className="language-switch" role="group" aria-label={t('language.label')}>
-      {SUPPORTED_LANGUAGES.map((language) => (
-        <button
-          key={language}
-          type="button"
-          lang={language}
-          aria-pressed={current === language}
-          onClick={() => void i18n.changeLanguage(language)}
-        >
-          {t(`language.${language}`)}
-        </button>
-      ))}
-    </div>
+    <SegmentedControl<Language>
+      label={t('language.label')}
+      name="language"
+      value={current}
+      onChange={(language) => void i18n.changeLanguage(language)}
+      options={SUPPORTED_LANGUAGES.map((language) => ({
+        value: language,
+        label: t(`language.${language}`),
+        lang: language,
+      }))}
+    />
   )
 }

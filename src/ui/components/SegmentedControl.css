@@ -1,0 +1,49 @@
+.segmented {
+  display: grid;
+  gap: var(--space-1);
+  padding: var(--space-1);
+  border-radius: var(--radius-inner);
+  background: var(--color-sunken);
+}
+
+.segmented__option {
+  position: relative;
+  display: flex;
+  min-height: var(--size-touch);
+  cursor: pointer;
+}
+
+/* Le vrai bouton radio couvre l'option, invisible : la pilule est dessinée par le texte. */
+.segmented__input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.segmented__text {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2) var(--space-1);
+  border-radius: 10px;
+  font-size: var(--font-size-label);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-secondary);
+  text-align: center;
+}
+
+.segmented__input:checked + .segmented__text {
+  background: var(--color-raised);
+  color: var(--color-text);
+  font-weight: var(--font-weight-bold);
+}
+
+.segmented__input:focus-visible + .segmented__text {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 0;
+}

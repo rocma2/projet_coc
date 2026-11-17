@@ -1,0 +1,23 @@
+.bar {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-track);
+}
+
+.bar--xs { height: 4px; border-radius: 2px; }
+.bar--sm { height: 8px; border-radius: 4px; }
+.bar--md { height: 12px; border-radius: 6px; }
+
+.bar--orange { --bar-color: var(--color-orange); }
+.bar--green { --bar-color: var(--color-green); }
+.bar--blue { --bar-color: var(--color-blue); }
+.bar--purple { --bar-color: var(--color-purple); }
+.bar--gold { --bar-color: var(--color-gold); }
+.bar--neutral { --bar-color: var(--color-text-muted); }
+
+.bar__fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: inherit;
+  background: var(--bar-color);
+}

@@ -1,0 +1,26 @@
+.stepper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stepper__segments {
+  display: grid;
+  gap: 6px;
+}
+
+.stepper__segment {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--color-inactive);
+}
+
+.stepper__segment--done {
+  background: var(--color-primary);
+}
+
+.stepper__label {
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-muted);
+}

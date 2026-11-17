@@ -23,13 +23,26 @@ npm run lint     # ESLint
 
 ```
 src/
-  engine/   moteur de simulation : TypeScript pur, sans React ni navigateur (règle ESLint)
-  data/     données de jeu (à venir)
-  ui/       composants React
-  i18n/     traductions français / anglais
-  test/     configuration des tests
-docs/       PRD et journal des décisions
+  engine/          moteur de simulation : TypeScript pur, sans React ni navigateur (règle ESLint)
+  data/            données de jeu (à venir)
+  ui/
+    App.tsx        coquille : colonne au format téléphone, écran courant, barre du bas
+    routes.ts      routage par fragment d'URL (#/today, #/plan…), sans dépendance
+    tokens.css     jetons de design (couleurs, typo, espacements, rayons) + thème sombre
+    styles.css     styles de base et mise en page des écrans
+    components/    briques réutilisables (Card, PillButton, RingGauge, BottomNav, icônes…),
+                   chacune avec sa feuille de style
+    screens/       un écran par wireframe (import, questionnaire, aujourd'hui, plan,
+                   hammer, inventaire, sources) + réglages
+  i18n/            traductions français / anglais (clés typées)
+  test/            configuration des tests
+docs/
+  PRD.md           spécification produit
+  decisions.md     journal des décisions
+  wireframes/      maquettes des 7 écrans : référence visuelle et structurelle de l'UI
 ```
+
+La police Inter est servie par l'application elle-même (`@fontsource-variable/inter`) : aucune requête vers un service tiers.
 
 ## Mention légale
 

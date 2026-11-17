@@ -1,0 +1,46 @@
+.ring {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.ring--orange { --ring-color: var(--color-orange); }
+.ring--green { --ring-color: var(--color-green); }
+.ring--blue { --ring-color: var(--color-blue); }
+.ring--purple { --ring-color: var(--color-purple); }
+.ring--gold { --ring-color: var(--color-gold); }
+
+.ring__dial {
+  position: relative;
+}
+
+.ring__track {
+  fill: none;
+  stroke: var(--color-track);
+}
+
+.ring__value {
+  fill: none;
+  stroke: var(--ring-color);
+}
+
+.ring__center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.1;
+  text-align: center;
+}
+
+.ring__label {
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-muted);
+  text-align: center;
+}
