@@ -64,4 +64,14 @@ export default defineConfig([
       globals: globals.node,
     },
   },
+  {
+    // Scripts de maintenance (données de jeu) : Node pur, ESM.
+    files: ['scripts/**/*.mjs'],
+    extends: [js.configs.recommended],
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      globals: globals.node,
+    },
+  },
 ])

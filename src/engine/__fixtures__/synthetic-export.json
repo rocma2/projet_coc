@@ -1,0 +1,39 @@
+{
+  "_note": "Export SYNTHÉTIQUE écrit à la main pour les tests (niveaux inventés, tag fictif). Même forme qu'un export du jeu ; ce n'est pas un vrai compte.",
+  "tag": "#TEST000",
+  "timestamp": 1790000000,
+  "buildings": [
+    { "data": 1000001, "lvl": 15, "cnt": 1 },
+    { "data": 1000008, "lvl": 19, "cnt": 6 },
+    { "data": 1000008, "lvl": 19, "timer": 86400 },
+    { "data": 1000009, "lvl": 20, "cnt": 8 },
+    { "data": 1000010, "lvl": 14, "cnt": 300 },
+    { "data": 1000010, "lvl": 15, "cnt": 25 },
+    { "data": 1000005, "lvl": 16, "cnt": 4 },
+    { "data": 1000007, "lvl": 12, "cnt": 1 },
+    { "data": 1000015, "lvl": 3, "cnt": 5 },
+    { "data": 1999999, "lvl": 1, "cnt": 1 }
+  ],
+  "traps": [
+    { "data": 12000000, "lvl": 10, "cnt": 8 },
+    { "data": 12000001, "lvl": 9, "timer": 3600 }
+  ],
+  "units": [
+    { "data": 4000000, "lvl": 10 },
+    { "data": 4000001, "lvl": 11 }
+  ],
+  "siege_machines": [{ "data": 4000051, "lvl": 4 }],
+  "heroes": [
+    { "data": 28000000, "lvl": 80 },
+    { "data": 28000001, "lvl": 82 }
+  ],
+  "spells": [{ "data": 26000002, "lvl": 5, "timer": 172800 }],
+  "pets": [{ "data": 73000000, "lvl": 9 }],
+  "equipment": [
+    { "data": 90000010, "lvl": 15 },
+    { "data": 90000000, "lvl": 12 }
+  ],
+  "helpers": [{ "data": 93000000, "lvl": 4, "helper_cooldown": 1200 }],
+  "guardians": [],
+  "boosts": { "builder_boost": 0, "lab_boost": 0 }
+}
