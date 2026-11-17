@@ -38,6 +38,13 @@ Ce fichier alimente le PRD. Il ne contient aucune donnée personnelle (l'export 
 - Les aides (apprenti, assistant du labo) sont affichées mais pas calculées en V1.
 - Contenu automatique des passes : version suivante.
 
+## Décisions du tour 5
+- **Potions d'ouvrier cumulables** (jusqu'à plusieurs heures d'affilée). Il faut éviter qu'un constructeur s'arrête pendant le sommeil (23 h à 6-7 h) : le plan lance les longues améliorations avant de dormir.
+- **Ressources :** la V1 compte au minimum la capacité des réservoirs (certaines améliorations sont impossibles sans Gold Pass tant que les réservoirs ne sont pas montés), qui passent en priorité 1 ou 2. Stock et vitesse de farm arrivent avec les profils Équilibré et Relax.
+- **Plafond de médailles :** les médailles de CWL sont dépensées chaque mois, donc on n'attend pas le plafond. L'alerte reste une sécurité.
+- **Chantiers en cours :** fixes ; un hammer dessus est possible mais rare.
+- **Captures de la boutique (16 nov. 2026) :** prix et cooldowns confirmés (voir PRD §9.2). Deux autres monnaies existent (trophée 1 586 / 25 000 ; hexagone bleu 3 060 / 5 000), à identifier.
+
 ## Questions encore ouvertes
 - Médailles d'event : que vendent-elles et à quel prix ? (liste attendue du joueur)
 - Catégories exactes du −20 % du Gold Pass.
