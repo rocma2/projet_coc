@@ -1,2 +1,32 @@
 ﻿# Donnees personnelles du joueur (ne jamais commiter)
 private/
+
+# Dependances et builds
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Couverture de tests
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Fichiers locaux
+*.local
+.env
+.env.*
+
+# Editeurs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.sw?
+
+# Systeme
+.DS_Store
+Thumbs.db
+desktop.ini
