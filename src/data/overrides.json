@@ -1,4 +1,518 @@
 {
   "schemaVersion": 1,
-  "entities": []
+  "entities": [
+    {
+      "dataId": 1000000,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 14
+      }
+    },
+    {
+      "dataId": 1000001,
+      "note": "HDV 19 : niveau le plus haut du jeu au 2026-11-19.",
+      "maxLevelByTownHall": {
+        "19": 19
+      }
+    },
+    {
+      "dataId": 1000002,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 6800000 et 205200 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 18,
+          "cost": {
+            "gold": 8500000
+          },
+          "time": 259200,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000003,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 14400000 et 759600 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 20,
+          "cost": {
+            "gold": 18000000
+          },
+          "time": 950400,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000004,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 6800000 et 205200 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 18,
+          "cost": {
+            "elixir": 8500000
+          },
+          "time": 259200,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000005,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 14400000 et 759600 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 20,
+          "cost": {
+            "elixir": 18000000
+          },
+          "time": 950400,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000006,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 19
+      }
+    },
+    {
+      "dataId": 1000007,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 17
+      }
+    },
+    {
+      "dataId": 1000010,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 8000000 et 0 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 20,
+          "cost": {
+            "gold-or-elixir": 10000000
+          },
+          "time": 0,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000011,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 17
+      }
+    },
+    {
+      "dataId": 1000012,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 22800000 et 964800 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 17,
+          "cost": {
+            "gold": 28500000
+          },
+          "time": 1209600,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000013,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 18
+      }
+    },
+    {
+      "dataId": 1000014,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 15
+      }
+    },
+    {
+      "dataId": 1000015,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 20800000 et 964800 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 9,
+          "cost": {
+            "gold": 26000000
+          },
+          "time": 1209600,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000019,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 22000000 et 964800 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 18,
+          "cost": {
+            "gold": 27500000
+          },
+          "time": 1209600,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000020,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 14800000 et 723600 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 10,
+          "cost": {
+            "elixir": 18500000
+          },
+          "time": 907200,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000021,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 22400000 et 964800 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 14,
+          "cost": {
+            "gold": 28000000
+          },
+          "time": 1209600,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000023,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 10000000 et 446400 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 12,
+          "cost": {
+            "elixir": 12500000
+          },
+          "time": 561600,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000024,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 19200000 et 896400 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 14,
+          "cost": {
+            "elixir": 24000000
+          },
+          "time": 1123200,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000026,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 13
+      }
+    },
+    {
+      "dataId": 1000027,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 12
+      }
+    },
+    {
+      "dataId": 1000028,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 7
+      }
+    },
+    {
+      "dataId": 1000029,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 8
+      }
+    },
+    {
+      "dataId": 1000032,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 13
+      }
+    },
+    {
+      "dataId": 1000059,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 9
+      }
+    },
+    {
+      "dataId": 1000064,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 1
+      }
+    },
+    {
+      "dataId": 1000068,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 12
+      }
+    },
+    {
+      "dataId": 1000070,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 10
+      }
+    },
+    {
+      "dataId": 1000071,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 24400000 et 1069200 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 13,
+          "cost": {
+            "elixir": 30500000
+          },
+          "time": 1339200,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000072,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 4
+      }
+    },
+    {
+      "dataId": 1000077,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 5
+      }
+    },
+    {
+      "dataId": 1000084,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 23200000 et 1000800 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 5,
+          "cost": {
+            "gold": 29000000
+          },
+          "time": 1252800,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000085,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 22400000 et 964800 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 5,
+          "cost": {
+            "gold": 28000000
+          },
+          "time": 1209600,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000086,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 2
+      }
+    },
+    {
+      "dataId": 1000089,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 3
+      }
+    },
+    {
+      "dataId": 1000093,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 1
+      }
+    },
+    {
+      "dataId": 1000102,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 2
+      }
+    },
+    {
+      "dataId": 1000105,
+      "id": "guardian-shrine",
+      "name": "Guardian Shrine",
+      "kind": "other-building",
+      "note": "Nouvel élément HDV 19 (identifiant de l'export, nom lu en jeu le 2026-11-19). Coûts non visibles : amélioration en cours ou aucune amélioration proposée.",
+      "maxLevelByTownHall": {
+        "19": 1
+      }
+    },
+    {
+      "dataId": 1000106,
+      "id": "squad-barracks",
+      "name": "Squad Barracks",
+      "kind": "army-building",
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 2400000 et 205200 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 2,
+          "cost": {
+            "elixir": 3000000
+          },
+          "time": 259200,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 1000108,
+      "id": "firecracker-tower",
+      "name": "Firecracker Tower",
+      "kind": "defense",
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 25600000 et 1036800 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 2,
+          "cost": {
+            "gold": 32000000
+          },
+          "time": 1296000,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 12000000,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 14
+      }
+    },
+    {
+      "dataId": 12000001,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 13600000 et 550800 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 14,
+          "cost": {
+            "gold": 17000000
+          },
+          "time": 691200,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 12000002,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 12
+      }
+    },
+    {
+      "dataId": 12000005,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 14000000 et 586800 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 14,
+          "cost": {
+            "gold": 17500000
+          },
+          "time": 734400,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 12000006,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 8
+      }
+    },
+    {
+      "dataId": 12000008,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 14400000 et 619200 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 6,
+          "cost": {
+            "gold": 18000000
+          },
+          "time": 777600,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 12000016,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 3
+      }
+    },
+    {
+      "dataId": 12000020,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 4
+      }
+    },
+    {
+      "dataId": 107000000,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 5
+      }
+    },
+    {
+      "dataId": 107000001,
+      "note": "Relevé en jeu le 2026-11-19 (menu des constructeurs, HDV 19, Gold Pass actif : affiché 19200000 et 828000 s, valeurs de base = affiché / 0,8). Seul le prochain niveau est visible : d'autres niveaux HDV 19 peuvent exister.",
+      "levels": [
+        {
+          "level": 6,
+          "cost": {
+            "elixir": 24000000
+          },
+          "time": 1036800,
+          "townHallRequired": 19
+        }
+      ]
+    },
+    {
+      "dataId": 107000008,
+      "note": "Absent du menu des constructeurs le 2026-11-19 : déjà au max de l'HDV 19 (niveau du joueur).",
+      "maxLevelByTownHall": {
+        "19": 5
+      }
+    }
+  ]
 }

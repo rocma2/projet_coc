@@ -53,6 +53,17 @@ Pour vérifier qu'un export est couvert : `npm run data:coverage -- chemin/vers/
 
 Les valeurs de l'exemple sont fictives : ne jamais inventer de chiffres dans le fichier du repo.
 
+### Valeurs HDV 19 relevées en jeu
+
+Les données s'arrêtent à l'HDV 18. Le contenu actuel de `overrides.json` vient du jeu lui-même, lu le 2026-11-19 dans le menu des constructeurs d'un compte HDV 19, et il est produit par `scripts/build-th19-overrides.mjs` (les valeurs lues y sont écrites en clair) :
+
+- **Prochain niveau** de chaque bâtiment améliorable : coût, ressource et durée, avec `townHallRequired: 19`. Le jeu n'affiche que le niveau suivant : d'autres niveaux HDV 19 peuvent exister.
+- **Gold Pass** : le compte l'avait, donc les valeurs affichées sont réduites de 20 %. Le script les divise par 0,8 et refuse tout coût qui ne tombe pas juste. Les durées étant affichées à l'heure près, il retient l'unique durée ronde compatible (multiple de 12 h de préférence) et refuse toute ambiguïté.
+- **Bâtiments absents du menu** (et pas en cours d'amélioration) : déjà au max de l'HDV 19, déclaré par `maxLevelByTownHall`.
+- **Nouveaux éléments** (Spiky Tower, Firecracker Tower, Squad Barracks, Guardian Shrine) : ajoutés avec leur identifiant de l'export et leur nom lu en jeu.
+
+Restent « à venir » : les niveaux en cours d'amélioration ce jour-là (Spiky Tower, Firecracker Tower niv. 1, Multi-Gear Tower), les héros, troupes, sorts, familiers et équipements HDV 19, et le nombre d'exemplaires par bâtiment à l'HDV 19.
+
 ## Règle « à venir »
 
 Un identifiant de l'export absent des données, un niveau manquant ou un HDV que les données ne décrivent pas (aujourd'hui l'HDV 19) donnent un statut `upcoming` explicite au lieu d'une erreur. L'app affiche l'élément « à venir » et l'exclut des calculs.
